@@ -63,6 +63,8 @@
     <class>checkgit.app.shared.appbasicsetup.userrolemanagement.AppMenus</class>
     <class>checkgit.app.shared.appbasicsetup.userrolemanagement.RoleMenuBridge</class>
     <class>checkgit.app.shared.appbasicsetup.userrolemanagement.UserRoleBridge</class>
+    <class>checkgit.app.shared.organization.contactmanagement.NewEntity</class>
+    <class>checkgit.app.shared.organization.locationmanagement.Checking</class>
     </persistence-unit>
 
 </persistence>

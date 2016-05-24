@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-	== com.spartan.pluggable.logger.api.* ==
+	== com.spartan.pluggable.logger.config.model.AppAlarm ==
 
 	Application Alarm Configurations are based on Domain Driven Design
 	Alarms are configured as per Bounded Context and Domain wise
-
 	Bounded Context
 		Domains
 			Alarms are classified into the following App Architecture Layers
-
-			1 = WEB SERIVCE
-			2 = DOMAIN SERVICE
-			3 = DATABASE SERVICE
-			4 = EXTERNAL SERVICE
-			5 = EVENT BUS
-			6 = ANALYTICS SERVICE
-			7 = SCHEDULER SERVICE
+				1 = WEB SERIVCE
+				2 = DOMAIN SERVICE
+				3 = DATABASE SERVICE
+				4 = EXTERNAL SERVICE
+				5 = EVENT BUS
+				6 = ANALYTICS SERVICE
+				7 = SCHEDULER SERVICE
 
 	Every Alarm has the following properties
 
@@ -78,36 +76,18 @@
 
 	Eg. SHPPR456107402 : It Says web Service Call failed in the Shopping Context Product Search with Severity 5
 
-		SHP = Bounded Context ID : Shopping Module
-		PR  = Domain ID : Product Catalogue
-		4   = App Layer - Web Service
-		5   = Alarm Severity (Critical)
-		6   = Event Action (Read, Write)
-		107 = Alarm Context
-		402 = Status Code : HTTP Status Code
-	====================================================================== 
+	    SHP = Bounded Context ID : Shopping Module
+	    PR  = Domain ID : Product Catalogue
+	    4   = App Layer - Web Service
+	    5   = Alarm Severity (Critical)
+	    6	= Event Action (Read, Write)
+	    107 = Alarm Context
+	    402 = Status Code : HTTP Status Code
+
 -->
 <AppAlarms version="1" reLoad="true">
-	<!-- 
-		================================================================ 
-		File ReLoad Parameters 
-		Time Unit = Days, Hours, Minutes, Seconds 
-		Delay = 1, 2, 10, 30, 60 etc 
-		If Time Unit is Minutes and Delay is 30, then the file 
-		will be refreshed every half an hour.
-		================================================================ 
-	-->
-	<appAlarm.refresh timeUnit="Minutes" delay="30" />
-	<!-- 
-		Auto Generated Alarms from Framework Template ........................ 
-		Only following Parameters of an Alarm CAN be changed 
-		in the Application running in the Production Mode. 
+	<appAlarm.refresh timeUnit="minutes" delay="30"></appAlarm.refresh>
+	<!-- App Specific Alarms : Example -->
 
-		Enable Domain Trace          : Will enable All the Alarms to 
-		                               to printed in the Highest debug level
-		Alarm Connector Log Priority : For Database, File, Syslog, TCP etc.. 
-		Message, Diagnosis, Solution : Donot change the parameters of the
-		                               of the Message.
-		...................................................................... 
-	-->
+
 </AppAlarms>
