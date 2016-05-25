@@ -63,6 +63,26 @@
     <class>lastgitcheck.app.shared.appbasicsetup.userrolemanagement.AppMenus</class>
     <class>lastgitcheck.app.shared.appbasicsetup.userrolemanagement.RoleMenuBridge</class>
     <class>lastgitcheck.app.shared.appbasicsetup.userrolemanagement.UserRoleBridge</class>
+    <jar-file>lib/spartan-pluggable-1.0.jar</jar-file>
+    <jar-file>lib/athena-pluggable-1.0.jar</jar-file>
+    <jar-file>lib/spartan-logger-1.0.jar</jar-file>
+    <jar-file>lib/spartan-healthmeter-1.0.jar</jar-file>
+    <jar-file>lib/athena-data-engine-1.0.jar</jar-file>
+    <jar-file>lib/spartan-auth-1.0.jar</jar-file>
+  <jar-file>lib/spartan-pluggable-1.0.jar</jar-file>
+    <jar-file>lib/athena-pluggable-1.0.jar</jar-file>
+    <jar-file>lib/spartan-logger-1.0.jar</jar-file>
+    <jar-file>lib/spartan-healthmeter-1.0.jar</jar-file>
+    <jar-file>lib/athena-data-engine-1.0.jar</jar-file>
+    <jar-file>lib/spartan-auth-1.0.jar</jar-file>
+  <jar-file>lib/spartan-pluggable-1.0.jar</jar-file>
+    <jar-file>lib/athena-pluggable-1.0.jar</jar-file>
+    <jar-file>lib/spartan-logger-1.0.jar</jar-file>
+    <jar-file>lib/spartan-healthmeter-1.0.jar</jar-file>
+    <jar-file>lib/athena-data-engine-1.0.jar</jar-file>
+    <jar-file>lib/spartan-auth-1.0.jar</jar-file>
+  <class>lastgitcheck.app.shared.organization.locationmanagement.NewEntity</class>
+    <class>lastgitcheck.app.shared.organization.locationmanagement.NewEntity</class>
     </persistence-unit>
 
 </persistence>

@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'Lastgitcheck.Application',
     
-    autoCreateViewport: 'Lastgitcheck.view.main.Main'
+/**AppPathDetails**/autoCreateViewport:"Lastgitcheck.view.desktop.design.drawer.main.MainPanel",
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to Lastgitcheck.Application. If you need to

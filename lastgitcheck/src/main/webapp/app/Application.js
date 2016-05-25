@@ -44,7 +44,7 @@ Ext.define('Lastgitcheck.Application', {
 Ext.Ajax.timeout = 180000; 
 var sessionTimeOutFlag = false;
 
-/**isMultiForm**/var isMultiTab = true;
+/**isMultiForm**/ var isMultiTab = true;
 
 Ext.Ajax.on('beforerequest', function(connection, options, eOpts) {
 

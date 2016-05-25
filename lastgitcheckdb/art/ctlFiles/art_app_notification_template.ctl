@@ -1,0 +1,1 @@
+load data infile '/tmp/applifire/db/PQDARA1GRKHTD9AOCRDQ/6BE6DB6D-9D38-4A34-8DE5-68F3A79FF98C/art/data/art_app_notification_template.csv' "str '#appfirenewline#'" into table art_app_notification_template FIELDS TERMINATED BY '#appfire#' (template_id, template_name, template, notification_type, created_by, created_date, updated_by, updated_date, active_status, version_id)
