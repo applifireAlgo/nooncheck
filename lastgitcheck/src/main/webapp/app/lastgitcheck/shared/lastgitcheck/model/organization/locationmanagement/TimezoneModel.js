@@ -1,0 +1,43 @@
+Ext.define('Lastgitcheck.lastgitcheck.shared.lastgitcheck.model.organization.locationmanagement.TimezoneModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "timeZoneId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "utcdifference",
+          "type": "number",
+          "defaultValue": ""
+     }, {
+          "name": "gmtLabel",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "timeZoneLabel",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "country",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "cities",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "number",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
